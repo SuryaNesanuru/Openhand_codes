@@ -1,0 +1,340 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Nike Air Zoom Pegasus 39",
+    "description": "Lightweight running shoes with responsive cushioning. Perfect for daily runs and training. Features Zoom Air units for energy return.",
+    "price": 89.99,
+    "category": "running-shoes",
+    "brand": "Nike",
+    "available": true,
+    "image_url": "/images/nike-pegasus-39.jpg",
+    "specs": {
+      "weight": "9.5 oz",
+      "drop": "10mm",
+      "surface": "Road"
+    },
+    "tags": ["running", "shoes", "nike", "athletic", "pegasus"]
+  },
+  {
+    "id": "prod_002",
+    "name": "Adidas Ultraboost 22",
+    "description": "Premium running shoes with full-length Boost midsole for incredible energy return. Primeknit upper for sock-like fit.",
+    "price": 95.00,
+    "category": "running-shoes",
+    "brand": "Adidas",
+    "available": true,
+    "image_url": "/images/adidas-ultraboost-22.jpg",
+    "specs": {
+      "weight": "10.8 oz",
+      "drop": "10mm",
+      "surface": "Road/Trail"
+    },
+    "tags": ["running", "shoes", "adidas", "ultraboost", "athletic"]
+  },
+  {
+    "id": "prod_003",
+    "name": "Apple iPhone 14 Pro",
+    "description": "The latest iPhone with Dynamic Island, 48MP camera system, and A16 Bionic chip. All-day battery life.",
+    "price": 999.00,
+    "category": "smartphones",
+    "brand": "Apple",
+    "available": true,
+    "image_url": "/images/iphone-14-pro.jpg",
+    "specs": {
+      "storage": "128GB",
+      "screen": "6.1 inch Super Retina XDR",
+      "camera": "48MP",
+      "battery": "All-day"
+    },
+    "tags": ["iphone", "apple", "smartphone", "phone", "ios"]
+  },
+  {
+    "id": "prod_004",
+    "name": "Samsung Galaxy S23 Ultra",
+    "description": "Ultimate smartphone with S Pen, 200MP camera, and Snapdragon 8 Gen 2 processor.",
+    "price": 1199.00,
+    "category": "smartphones",
+    "brand": "Samsung",
+    "available": false,
+    "image_url": "/images/galaxy-s23-ultra.jpg",
+    "specs": {
+      "storage": "256GB",
+      "screen": "6.8 inch Dynamic AMOLED",
+      "camera": "200MP",
+      "battery": "5000mAh"
+    },
+    "tags": ["samsung", "galaxy", "smartphone", "phone", "android"]
+  },
+  {
+    "id": "prod_005",
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "description": "Industry-leading noise cancellation with exceptional sound quality. 30-hour battery life.",
+    "price": 349.99,
+    "category": "headphones",
+    "brand": "Sony",
+    "available": true,
+    "image_url": "/images/sony-xm5.jpg",
+    "specs": {
+      "type": "Over-ear",
+      "driver": "30mm",
+      "battery": "30 hours",
+      "noise_cancellation": "Yes"
+    },
+    "tags": ["headphones", "sony", "wireless", "bluetooth", "noise-cancelling"]
+  },
+  {
+    "id": "prod_006",
+    "name": "Apple AirPods Pro 2nd Gen",
+    "description": "Active Noise Cancellation, Adaptive Transparency, and personalized Spatial Audio. 6 hours of battery.",
+    "price": 249.00,
+    "category": "headphones",
+    "brand": "Apple",
+    "available": true,
+    "image_url": "/images/airpods-pro-2.jpg",
+    "specs": {
+      "type": "In-ear",
+      "driver": "Custom Apple",
+      "battery": "6 hours (30 with case)",
+      "noise_cancellation": "Yes"
+    },
+    "tags": ["airpods", "apple", "headphones", "wireless", "bluetooth"]
+  },
+  {
+    "id": "prod_007",
+    "name": "Jabra Elite 75t Wireless Earbuds",
+    "description": "Compact true wireless earbuds with powerful sound and 24-hour battery with charging case.",
+    "price": 49.99,
+    "category": "headphones",
+    "brand": "Jabra",
+    "available": true,
+    "image_url": "/images/jabra-elite-75t.jpg",
+    "specs": {
+      "type": "In-ear",
+      "driver": "6mm",
+      "battery": "7.5 hours (24 with case)",
+      "noise_cancellation": "Passive"
+    },
+    "tags": ["jabra", "earbuds", "wireless", "bluetooth", "budget"]
+  },
+  {
+    "id": "prod_008",
+    "name": "Lululemon Align High-Rise Yoga Pants",
+    "description": "Buttery soft yoga pants with Nulu fabric. Perfect for yoga and everyday wear. 25 inch length.",
+    "price": 68.00,
+    "category": "yoga-pants",
+    "brand": "Lululemon",
+    "available": true,
+    "image_url": "/images/lululemon-align.jpg",
+    "specs": {
+      "rise": "High-rise",
+      "length": "25 inches",
+      "fabric": "Nulu",
+      "sizes": "XS-XL"
+    },
+    "tags": ["yoga", "pants", "lululemon", "workout", "leggings"]
+  },
+  {
+    "id": "prod_009",
+    "name": "Athleta Salutation Yoga Pants",
+    "description": "Versatile yoga pants with hidden pocket and smoothing waistband. Machine washable.",
+    "price": 44.95,
+    "category": "yoga-pants",
+    "brand": "Athleta",
+    "available": true,
+    "image_url": "/images/athleta-salutation.jpg",
+    "specs": {
+      "rise": "Mid-rise",
+      "length": "Regular",
+      "fabric": "Supima Cotton blend",
+      "sizes": "XS-XXL"
+    },
+    "tags": ["yoga", "pants", "athleta", "workout", "leggings"]
+  },
+  {
+    "id": "prod_010",
+    "name": "Apple MacBook Air M2",
+    "description": "Supercharged by M2 chip. Up to 18 hours of battery life. Incredibly thin and light design.",
+    "price": 1099.00,
+    "category": "laptops",
+    "brand": "Apple",
+    "available": true,
+    "image_url": "/images/macbook-air-m2.jpg",
+    "specs": {
+      "processor": "Apple M2",
+      "memory": "8GB",
+      "storage": "256GB SSD",
+      "display": "13.6 inch Liquid Retina"
+    },
+    "tags": ["macbook", "apple", "laptop", "computer", "m2"]
+  },
+  {
+    "id": "prod_011",
+    "name": "Dell XPS 13 Plus",
+    "description": "Ultra-portable laptop with 12th Gen Intel processor and OLED display option.",
+    "price": 999.00,
+    "category": "laptops",
+    "brand": "Dell",
+    "available": true,
+    "image_url": "/images/dell-xps-13.jpg",
+    "specs": {
+      "processor": "Intel Core i5-1230U",
+      "memory": "8GB",
+      "storage": "512GB SSD",
+      "display": "13.4 inch OLED"
+    },
+    "tags": ["dell", "xps", "laptop", "computer", "intel"]
+  },
+  {
+    "id": "prod_012",
+    "name": "Nintendo Switch OLED",
+    "description": "Featuring a vibrant 7-inch OLED screen, wide adjustable stand, and enhanced audio.",
+    "price": 349.99,
+    "category": "gaming",
+    "brand": "Nintendo",
+    "available": true,
+    "image_url": "/images/switch-oled.jpg",
+    "specs": {
+      "screen": "7 inch OLED",
+      "storage": "64GB",
+      "battery": "4.5-9 hours",
+      "controllers": "Joy-Con included"
+    },
+    "tags": ["nintendo", "switch", "gaming", "console", "oled"]
+  },
+  {
+    "id": "prod_013",
+    "name": "PlayStation 5",
+    "description": "Next-gen gaming console with 4K gaming, HDR technology, and 120fps supported.",
+    "price": 499.99,
+    "category": "gaming",
+    "brand": "Sony",
+    "available": false,
+    "image_url": "/images/ps5.jpg",
+    "specs": {
+      "storage": "825GB SSD",
+      "resolution": "4K",
+      "fps": "Up to 120",
+      "ray_tracing": "Yes"
+    },
+    "tags": ["playstation", "ps5", "gaming", "console", "sony"]
+  },
+  {
+    "id": "prod_014",
+    "name": "Fitbit Charge 5 Fitness Tracker",
+    "description": "Advanced fitness tracker with built-in GPS, ECG, and stress management tools.",
+    "price": 99.95,
+    "category": "wearables",
+    "brand": "Fitbit",
+    "available": true,
+    "image_url": "/images/fitbit-charge-5.jpg",
+    "specs": {
+      "display": "AMOLED",
+      "battery": "7 days",
+      "water_resistance": "5ATM",
+      "gps": "Built-in"
+    },
+    "tags": ["fitbit", "fitness", "tracker", "wearable", "smartwatch"]
+  },
+  {
+    "id": "prod_015",
+    "name": "Apple Watch Series 8",
+    "description": "The ultimate device for a healthy life. Temperature sensing, Crash Detection, and Sleep Stages.",
+    "price": 399.00,
+    "category": "wearables",
+    "brand": "Apple",
+    "available": true,
+    "image_url": "/images/apple-watch-s8.jpg",
+    "specs": {
+      "display": "Always-On Retina",
+      "battery": "18 hours",
+      "water_resistance": "50M",
+      "sensors": "Temperature, ECG, SpO2"
+    },
+    "tags": ["apple", "watch", "wearable", "smartwatch", "fitness"]
+  },
+  {
+    "id": "prod_016",
+    "name": "Instant Pot Duo 7-in-1",
+    "description": "Electric pressure cooker, slow cooker, rice cooker, steamer, sauté, yogurt maker, and warmer.",
+    "price": 89.95,
+    "category": "kitchen",
+    "brand": "Instant Pot",
+    "available": true,
+    "image_url": "/images/instant-pot-duo.jpg",
+    "specs": {
+      "capacity": "6 quarts",
+      "power": "1000W",
+      "programs": "14",
+      "features": "6-in-1"
+    },
+    "tags": ["instant pot", "kitchen", "cooker", "pressure cooker", "slow cooker"]
+  },
+  {
+    "id": "prod_017",
+    "name": "KitchenAid Stand Mixer",
+    "description": "Professional-grade stand mixer with 10 speeds. Perfect for baking and cooking.",
+    "price": 279.99,
+    "category": "kitchen",
+    "brand": "KitchenAid",
+    "available": true,
+    "image_url": "/images/kitchenaid-mixer.jpg",
+    "specs": {
+      "capacity": "5 quarts",
+      "speeds": "10",
+      "power": "325W",
+      "bowl": "Stainless Steel"
+    },
+    "tags": ["kitchenaid", "mixer", "kitchen", "baking", "stand mixer"]
+  },
+  {
+    "id": "prod_018",
+    "name": "Dyson V15 Detect Vacuum",
+    "description": "Powerful cordless vacuum with laser dust detection and HEPA filtration.",
+    "price": 749.99,
+    "category": "home",
+    "brand": "Dyson",
+    "available": true,
+    "image_url": "/images/dyson-v15.jpg",
+    "specs": {
+      "type": "Cordless",
+      "battery": "60 minutes",
+      "filtration": "HEPA",
+      "laser": "Yes"
+    },
+    "tags": ["dyson", "vacuum", "cleaner", "home", "cordless"]
+  },
+  {
+    "id": "prod_019",
+    "name": "Bose SoundLink Flex Bluetooth Speaker",
+    "description": "Portable waterproof speaker with PositionIQ technology for optimal sound in any position.",
+    "price": 129.00,
+    "category": "audio",
+    "brand": "Bose",
+    "available": true,
+    "image_url": "/images/bose-soundlink.jpg",
+    "specs": {
+      "type": "Portable Bluetooth",
+      "battery": "12 hours",
+      "water_resistance": "IP67",
+      "weight": "1.25 lbs"
+    },
+    "tags": ["bose", "speaker", "bluetooth", "portable", "audio"]
+  },
+  {
+    "id": "prod_020",
+    "name": "Sonos One Smart Speaker",
+    "description": "Rich, room-filling sound with built-in Alexa and Google Assistant.",
+    "price": 219.00,
+    "category": "audio",
+    "brand": "Sonos",
+    "available": true,
+    "image_url": "/images/sonos-one.jpg",
+    "specs": {
+      "type": "Smart Speaker",
+      "voice_assistant": "Alexa/Google",
+      "audio": "2 Class-D amplifiers",
+      "connectivity": "WiFi, AirPlay 2"
+    },
+    "tags": ["sonos", "speaker", "smart speaker", "alexa", "audio"]
+  }
+]
